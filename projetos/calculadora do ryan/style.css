@@ -1,0 +1,14 @@
+.mae{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body{
+    background-color: purple;
+}
+

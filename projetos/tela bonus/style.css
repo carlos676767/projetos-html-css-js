@@ -1,0 +1,87 @@
+body{
+    background-image: url(pexels-tayssir-kadamany-17437864.jpg);
+    background-size: cover;
+}
+
+
+.div1{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 90px
+}
+
+
+button{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input{
+    width: 95%;
+    border-radius: 15px;
+}
+
+
+.botao2{
+    position: absolute;
+    left: 19%;
+}
+
+
+.termos{
+    position: absolute;
+    left: 25%;
+    top: 66%;
+    color: white;
+}
+
+
+.instagram{
+    position: absolute;  
+    top: 37%;  
+    left: 25%;
+    border-radius: 5px;
+    
+
+}
+
+
+.facebook{
+    position: absolute;
+    left: 46%;
+    top: 37%;
+    border-radius: 5px;
+    
+}
+
+
+.github{
+    position: absolute;
+    left: 67%;
+    top: 37%;
+
+
+}
+
+
+.ja{
+    color: white;
+    position: absolute;
+}
+
+a{
+    color:#088A29 ;
+}
+
+
+
+
+
+

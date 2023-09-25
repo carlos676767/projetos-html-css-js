@@ -1,0 +1,113 @@
+body{
+    background-image: url(logo2.png);
+    background-size: cover;
+}
+
+.tela{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 75px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+[class*="tela"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+button{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+input{
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    width: 75%;
+    padding: 0.7%;
+
+}
+
+
+img{
+    width: 120%;
+    
+    
+    
+}
+
+
+.instagram{
+    position: absolute;
+    top: 33%;
+    left: 37%;
+}
+
+
+p{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+a{
+    color: #1E90FF;
+}
+
+.github{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+
+
+} 
+
+.facebook{
+    position: absolute;
+    top: 34%;
+    left: 63%;
+}

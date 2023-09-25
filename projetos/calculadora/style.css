@@ -1,0 +1,19 @@
+.cal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.calculadora{
+    gap: 8px;
+    flex-direction: column;
+    display: flex;
+    background-color: #ececec;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+
+}

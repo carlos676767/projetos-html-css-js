@@ -1,0 +1,39 @@
+body{
+    background-image: url(teste.jpg);
+    background-size: cover;
+}
+
+
+
+.mae {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .filho {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    background-color: #BC8F8F;
+  }
+  
+  .input-group {
+    display: flex;
+   flex-direction: column;
+  }
+  
+  .label-checkbox {
+    display: flex;
+    align-items: center;
+  }
+
+  .filho2{
+    background-color: white; 
+  }
+
+  .texto{
+    margin-top: 1px;
+  }
+  

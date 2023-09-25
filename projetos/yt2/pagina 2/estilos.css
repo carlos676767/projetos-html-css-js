@@ -1,0 +1,194 @@
+body{
+    background-color: black
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    background-color: black;
+    z-index: 1;
+
+}
+
+i{
+    background-color: black; /* indica que estaremos pintando o fundo */
+    border: none; /* tira os contornos */
+    color: white; /* indica que estaremos pintando as letras */
+    outline-color: #C0C0C0; /* define uma cor do contorno */
+   width: 30%; /* largura de 30% */
+   outline-style: double; /*tipo de contorno */
+   border-radius: 15px /* arrendoda as bordas */
+   
+}
+
+input{
+ 
+    border: none; /* indica que estaremos estaremos tirando o contorno */
+    background-color: black; /* cor de fundo */
+    width: 30%; /* largura de 30% */
+    padding: 10px; /* distancia entre as bordas de 10px */
+    outline: none;  /* tira o contorno */
+    color: white; /* indica que o input ficara da cor white */
+
+
+}
+
+.mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.nav img{
+    width: 50px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.imagem img{
+    width: 1600px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: -130px;
+    
+}
+
+
+
+
+.filho button{
+    margin-left: 500px;
+}
+
+.section img{
+    margin-top: -170px;
+    margin-left: 180px;
+}
+
+.filho2{
+    display: flex;
+    margin-top: -170px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.filho2 p{
+    color: white;
+    margin-left: 450px;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px
+    ;
+
+}
+
+.botao button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.nav3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
+   gap: 80px;
+}
+
+.nav3 button{
+    background-color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.nav3 button:hover{
+    background-color: brown;
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+iframe{
+    width: 200px;
+
+}
+
+
+.amigos {
+    padding: 50px;
+    color: white;
+}
+
+
+.amigos1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.amigos1 p {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 500px;
+}
+
+
+.amigos1 img {
+    margin-left: 200px;
+}
+
+
+.amigos1, i {
+    outline: none;
+    color: white;
+}
+
+.amigos1 button{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+
+
+
+
+
+

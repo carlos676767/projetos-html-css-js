@@ -1,0 +1,32 @@
+body{
+    background-image: url(pexels-steve-johnson-1509534.jpg);
+    background-size: cover;
+    
+}
+
+.tela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 130px;
+   
+}
+
+button{
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    width: 110%;
+    padding: 10px;
+}
+
+h2{
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    color: black;
+}
+
+

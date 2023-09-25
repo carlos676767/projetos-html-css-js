@@ -1,0 +1,16 @@
+body{
+    background-color: #1E90FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mae{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 17%;
+    
+}

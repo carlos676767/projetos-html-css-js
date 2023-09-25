@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeca{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+.tela{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    color: red;
+}
+
+.teste{
+    font-size: 20px;
+    margin-top: 100px;
+    align-items: flex-start;
+    padding: 15px;
+    margin-left: 100px;
+
+}
+
+img{
+    margin-top: 100px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}

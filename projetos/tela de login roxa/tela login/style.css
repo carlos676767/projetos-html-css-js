@@ -1,0 +1,53 @@
+body{
+    background-color: #6A5ACD;
+}
+
+.tela{
+    position: absolute;
+    background-color:#483D8B;
+    padding: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: #6A5ACD;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.esqueci{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    
+}
+
+input{
+    font-size: 14px;
+}
+
+
+.login{
+    position: absolute;
+    top: 13%;
+}
+
+a{
+    color: white;
+}
+
+
+
+

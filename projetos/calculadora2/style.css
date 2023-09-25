@@ -1,0 +1,42 @@
+body{
+    background-image: url(gatao2.jpg);
+    background-size: cover;
+}
+
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;  
+    color: white;
+}
+
+.teste{
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow:  0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);;;;
+    padding: 4rem;
+    border-radius: 10px;
+    
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+}
+
+
+h1{
+    border: 3px solid white;
+
+}
+img{
+    border: 2px solid #A9A9A9;
+}
+
+
+
+

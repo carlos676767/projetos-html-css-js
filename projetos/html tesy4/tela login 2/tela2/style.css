@@ -1,0 +1,31 @@
+body{
+    background-image: url(tela.png);
+    background-size: cover;
+}
+
+.tela2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 80px;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+p{
+    color: white;
+}

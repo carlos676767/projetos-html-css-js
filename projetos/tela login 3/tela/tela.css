@@ -1,0 +1,57 @@
+body{
+    background-image: url(564931.jpg);
+    background-size: cover;
+}
+
+.tela2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;  
+}
+
+h2{
+    color: white;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+input{
+    color: white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+
+}
+
+
+.teste{
+    font-size: 15px;
+}
+
+.esqueci{
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  font-size: small;
+}
+
