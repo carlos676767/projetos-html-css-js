@@ -1,0 +1,66 @@
+*{
+    margin: 0;  /* tira as margens*/
+    padding: 0;  /* tira as distancias entre a bordas. */
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(pexels-joyston-judah-933054.jpg);  /* define o fundo */
+   background-size: cover;  /* amplia o fundo */
+}
+
+.mae{
+    display: flex;  /* deixa o elemento flex para usar o flexbox */
+    align-items: center; /* centraliza todos itens. */
+    justify-content: center; /* centraliza a div */
+    height: 100vh;  /* da uma altura de 100vh , tamanho da viewport */
+}
+
+.filha{
+    display: flex; /* deixa o elemento flex para usar o flexbox */
+    gap: 5px; /* da um espacemento entre os itens. */
+    flex-direction: column;  /* deixa um embaixo do outro */
+    width: 300px; /* define uma largura de 300px */
+    background-color: white; /* pinta o fundo */
+    padding: 25px; /* da uma distancia entre as bordas  */
+    border-radius: 15px; /* arredonda */
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none; /* Esconde o checkbox padrão */
+}
+
+.custom-checkbox {
+    position: relative;  /* evita que os elemntos position tenha conflito*/
+    padding-left: 30px; /* Espaço para o checkbox personalizado */
+    margin-right: 15px;  /* move para o lado direito */
+    cursor: pointer;  /* faz um efeito de curso quando passar o mouse */
+    color: #4B0082; /* Cor desejada para o texto */
+}
+
+.custom-checkbox::before { 
+    content: ""; /* adiciona um conteudo adicional sem precisar colocar o html */
+    position: absolute; /* serve para sobrepor o conteudo. */
+    left: 0; /* define um top de 0 */
+    top: 0; /* define um top de zero*/
+    width: 20px; /* Tamanho do checkbox personalizado */
+    height: 20px; /* Tamanho do checkbox personalizado */
+    border: 2px solid #4B0082; /* Cor da borda do checkbox */
+    background-color: transparent; /* Cor de fundo quando não marcado */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+#tela{
+    display: flex; /* deixa o elemento flex para usar o flexbox */
+    justify-content: center; /* centraliza a div */
+    text-align: center; /* centraliza o texto */
+    border: 3px solid #4B0082; /* cria uma borda*/
+    padding: 5px; /* define uma distancia entre as bordas. */
+}
+
+#botao{
+    border-radius: 10px; /*arredonda o botao  */
+  border: none; /* tira as bordas */
+  background-color: #4B0082; /* define uma cor de fundo do botao */
+  color: white; /* coloca uma cor white */
+}
